@@ -15,9 +15,9 @@ public class Ejercicio10 {
 
         Scanner scanner = new Scanner(System.in) ;
 
-        System.out.println("==========================================") ;
-        System.out.println("== Ingreso al Ejercicio 10 de la Guia 1 ==") ;
-        System.out.println("==========================================") ;
+        System.out.println ("==========================================") ;
+        System.out.println ("== Ingreso al Ejercicio 10 de la Guia 1 ==") ;
+        System.out.println ("==========================================") ;
                 
         System.out.println("Ingrese su peso en Kg") ;
         peso = scanner.nextDouble() ;
@@ -36,7 +36,7 @@ public class Ejercicio10 {
         }else {
             System.out.println("Obesidad") ;
         }
-
+        scanner.close();
     }
 
 }

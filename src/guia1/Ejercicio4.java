@@ -12,9 +12,9 @@ public class Ejercicio4 {
 
         Scanner scanner = new Scanner(System.in) ;
 
-        System.out.println("=========================================") ;
-        System.out.println("== Ingreso al Ejercicio 4 de la Guia 1 ==") ;
-        System.out.println("=========================================") ;
+        System.out.println ("=========================================") ;
+        System.out.println ("== Ingreso al Ejercicio 4 de la Guia 1 ==") ;
+        System.out.println ("=========================================") ;
 
         System.out.print ("Ingrese el primer numero, para la calculadora -> ") ;
         double num1 = scanner.nextDouble();
@@ -59,7 +59,7 @@ public class Ejercicio4 {
         if (valida) {
             System.out.println("El resultado es -> " + resultado);
         }
-
+        scanner.close();
     }
 
 }
