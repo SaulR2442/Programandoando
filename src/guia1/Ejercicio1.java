@@ -7,6 +7,7 @@ Pida un numero entero al usuario e imprima si es Positivo, Negativo o Cero. Use 
 */
 
 public class Ejercicio1 {
+    
     public void NumeroEntero () {
 
         int numero = Integer.parseInt (JOptionPane.showInputDialog (null, 
