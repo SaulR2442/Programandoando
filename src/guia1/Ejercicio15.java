@@ -6,7 +6,7 @@ Calcular la suma de los numeros del 1 al 100 usando un ciclo for.
 
 public class Ejercicio15 {
     
-    public void suma () {
+    public void Suma () {
 
         System.out.println ("==========================================") ;
         System.out.println ("== Ingreso al Ejercicio 15 de la Guia 1 ==") ;
